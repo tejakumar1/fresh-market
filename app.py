@@ -13,10 +13,6 @@ app = Flask(__name__, template_folder='templates')
 def home():
     return render_template('main.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
-
-
 
 app = Flask(__name__)
 # Function to send the order email
